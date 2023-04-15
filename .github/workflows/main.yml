@@ -1,0 +1,7 @@
+name: Exemplo de aula de PEDIII - by Slmm
+onn: [push]
+jobs:
+  Descobrindo-o github-actions-workflow
+    runs-on:ubuntu-latest
+    steps:
+    - run: echo "${{github.event_name}} evento disparado "
